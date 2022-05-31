@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="hero">
+        <img src="images/maldives1.jpg" alt="Maldives" class="d-none sm-block">
+    </div>
+    <div class="heading">
+        <h1 style="text-transform: uppercase;">The Holiday Planner</h1>
+        <p>Enjoy your holiday by creating nice schedules with the holiday planner web app.</p>
+    </div>
+    <form class="form1" action="javascript:void(0);" method="post" onsubmit="create()">
+        <input id="add_plan" type="text" placeholder="Enter a schedule">
+        <input type="submit" value="Add" class="btn btn-success add">
+    </form>
+    <p id="counter"></p>
+    <div class="container">
+    <table>
+        <tr class="todo">
+            <th><h2><span id="sch"></span></h2></th>
+        </tr>
+        <tbody id="tasks"></tbody>
+    </table>
+    </div>
+
+    <div id="edit_plan" role="aria-hidden">
+        <form id="save-edit" action="javascript:void(0);" method="post">
+            <input type="text" id="edit_todo">
+            <input type="submit" id="save_todo" value="Save" class="btn btn-success">
+            <a class="close-btn" aria-label="close">&#10006;</a>
+    </form>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jQuery v3.6.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/sweetalert2.all.min.js"></script>
+</body>
+</html>
