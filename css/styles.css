@@ -57,6 +57,7 @@ a{
 }
 #sch{
     position: relative;
+    background-colour: blue;
 }
 @keyframes writing{
     100%{
