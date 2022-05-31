@@ -1,5 +1,3 @@
-const Swal = require('sweetalert2');
-
 // Swal.fire("hello world!");
 var tasks = [];
 function create(){
