@@ -23,13 +23,6 @@ function create(){
         document.getElementById("sch").innerHTML = "My holiday schedule: ";
         document.getElementById("sch").classList.remove("sch");
     }
-    Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: 'Schedule added successfully,
-  showConfirmButton: false,
-  timer: 1500
-})
     document.getElementById("tasks").innerHTML = data;
     // console.log(tasks);
 }
