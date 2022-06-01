@@ -59,13 +59,13 @@ function Delete(item){
 }
 
 function edit(item){
+    document.getElementById("edit_todo").scrollIntoView();
     document.getElementById("edit_todo").value = tasks[item];
     document.getElementById("edit_plan").style.display = 'block';
     
     document.getElementById("save_todo").addEventListener("click", function(){
         var task = document.getElementById("edit_todo").value;
         if(task){
-            tasks.splice(item, 1, task.trim());
             Swal.fire({
   position: 'top-end',
   icon: 'success',
@@ -73,6 +73,7 @@ function edit(item){
   showConfirmButton: false,
   timer: 1500
 })
+            tasks.splice(item, 1, task.trim());
             // console.log(tasks);
             create();
             closeinput();
