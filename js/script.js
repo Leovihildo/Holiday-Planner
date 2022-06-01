@@ -6,6 +6,13 @@ function create(){
     var plan = document.getElementById("add_plan").value;
     if (plan){
         tasks.push(plan.trim());
+        Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Schedule added successfully',
+  showConfirmButton: false,
+  timer: 1500
+})
         document.getElementById("add_plan").value = '';
     }
     if(tasks.length <= 0){
