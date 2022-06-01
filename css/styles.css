@@ -71,7 +71,7 @@ a{
     height: 100%;
     width: 100%;
     left: 0;
-    background-color: blue;
+    background-color: #fff;
     border-left: 2px solid black;
     animation: writing 4s steps(12) infinite;
 }
@@ -152,7 +152,7 @@ a{
         font-size: 1.2em;
     }
     .sch::after{
-        animation: writing 4s steps(10) infinite;
+        animation: writing 4s steps(8) infinite;
     }
 
 }
@@ -190,7 +190,7 @@ a{
         font-size: 1.1em;
     }
     .sch::after{
-        animation: writing 4s steps(8) infinite;
+        animation: writing 4s steps(6) infinite;
     }
     
 }
