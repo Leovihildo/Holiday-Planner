@@ -59,9 +59,6 @@ a{
     position: relative;
 }
 @keyframes writing{
-    50%{
-        width: 70%;
-   }
     100%{
         left: 100%;
         width: 0%;
@@ -155,7 +152,7 @@ a{
         font-size: 1.2em;
     }
     .sch::after{
-        animation: writing 4s steps(7) infinite;
+        animation: writing 4s steps(10) infinite;
     }
 
 }
@@ -193,7 +190,7 @@ a{
         font-size: 1.1em;
     }
     .sch::after{
-        animation: writing 4s steps(5) infinite;
+        animation: writing 4s steps(8) infinite;
     }
     
 }
