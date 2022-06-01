@@ -59,8 +59,12 @@ a{
     position: relative;
 }
 @keyframes writing{
+    50%{
+        width: 50%;
+   }
     100%{
         left: 100%;
+        width: 0%;
         margin: 0 -35px 0 35px;
     }
 }
@@ -68,6 +72,7 @@ a{
     content: "";
     position: absolute;
     height: 100%;
+    width: 100%;
     left: 0;
     background-color: blue;
     border-left: 2px solid black;
