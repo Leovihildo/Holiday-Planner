@@ -66,6 +66,13 @@ function edit(item){
         var task = document.getElementById("edit_todo").value;
         if(task){
             tasks.splice(item, 1, task.trim());
+            Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Schedule edited successfully',
+  showConfirmButton: false,
+  timer: 1500
+})
             // console.log(tasks);
             create();
             closeinput();
