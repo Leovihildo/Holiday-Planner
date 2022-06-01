@@ -24,6 +24,13 @@ function create(){
         document.getElementById("sch").classList.remove("sch");
     }
     document.getElementById("tasks").innerHTML = data;
+    Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Schedule added successfully,
+  showConfirmButton: false,
+  timer: 1500
+})
     // console.log(tasks);
 }
 
