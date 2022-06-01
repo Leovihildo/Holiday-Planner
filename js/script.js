@@ -30,7 +30,7 @@ function create(){
   title: 'Schedule added successfully,
   showConfirmButton: false,
   timer: 1500
-})
+});
     // console.log(tasks);
 }
 
