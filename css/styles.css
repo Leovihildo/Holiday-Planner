@@ -129,7 +129,6 @@ a{
     }
     .hero{
         width: 100vw;
-        height: 430px;
         background-color: aqua;
     }
     #tasks td:nth-child(1){
