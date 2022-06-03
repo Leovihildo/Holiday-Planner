@@ -76,7 +76,7 @@ a{
     animation: writing 4s steps(12) infinite;
 }
 #edit_plan{
-    display: none;
+    visibility: hidden;
     max-width: 80%;
     margin: 5px auto 40px;
 }
