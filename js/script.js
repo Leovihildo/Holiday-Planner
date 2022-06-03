@@ -61,7 +61,7 @@ function Delete(item){
 function edit(item){
     document.getElementById("edit_todo").scrollIntoView();
     document.getElementById("edit_todo").value = tasks[item];
-    document.getElementById("edit_plan").style.display = 'block';
+    document.getElementById("edit_plan").style.visibility = 'visible';
     
     document.getElementById("save_todo").addEventListener("click", function(){
         var task = document.getElementById("edit_todo").value;
@@ -85,6 +85,6 @@ function edit(item){
 create();
 
 function closeinput(){
-    document.getElementById("edit_plan").style.display = "none";
+    document.getElementById("edit_plan").style.visibility = "hidden";
 }
 
