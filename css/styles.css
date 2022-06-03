@@ -5,6 +5,9 @@
     outline: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+html, body {
+    min-height: 100%;
+}
 .hero{
     width: 100%;
     height: 60vw;
