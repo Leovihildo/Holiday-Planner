@@ -101,11 +101,6 @@ a{
 .container table{
     margin-bottom: 60px;
 }
-footer{
-   position: relative;
-   bottom: 0;
-   left: 0;
-}
 #copy{ 
    position: absolute; 
    bottom: 0; 
