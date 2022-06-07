@@ -98,6 +98,9 @@ a{
 .container table{
     margin-bottom: 60px;
 }
+footer{
+   position: relative;
+}
 #copy{ 
    position: absolute;
    bottom: 0; 
