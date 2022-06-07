@@ -99,9 +99,8 @@ a{
     margin-bottom: 60px;
 }
 #copy{ 
-   position: relative; 
+   position: absolute;
    bottom: 0; 
-   left: 0; 
    font-size: .7em; 
    color: #fff; 
    width: 100%; 
