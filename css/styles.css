@@ -101,10 +101,10 @@ a{
 footer{
    position: relative;
    margin-top: 60px;
+   bottom: 0;
 }
 #copy{ 
-   position: absolute;
-   bottom: 0; 
+   position: relative;
    font-size: .7em; 
    color: #fff; 
    width: 100%; 
